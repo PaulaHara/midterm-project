@@ -1,5 +1,5 @@
 nav {
-    background-color: dimgrey;
+    background-color: midnightblue;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -19,27 +19,153 @@ nav a {
 }
 
 nav a:hover {
-    background: #ddd;
+    background-color: aliceblue;
     color: black;
 }
 
-.get-in-touch {
-    margin-top: 70px; 
-    font-family: sans-serif;
-    margin-left: 20px;
+nav .search-container {
+    float: right;
+    margin-top: 7px;
+    margin-right: 8px;
 }
 
-button {
-    margin-left: 685px;
-    width: 90px;
-    height: 40px;
+nav .search-input {
+    width: auto !important;
+    padding: 0 !important;
+    margin-top: 3px !important;
+    margin-right: 7px !important;
+}
+
+.current-page {
+    background-color: slateblue;
+}
+
+.current-page:hover {
+    background-color: slateblue;
+    color: #f2f2f2;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #EEEEEE;
+}
+
+.page-title {
+    margin-top: 3em;
+}
+
+.content-body {
+    margin-left: 2em;
+    margin-bottom: 5em;
+    overflow: auto;
+    height: 34em;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: midnightblue;
+    color: aliceblue;
+    text-align: center;
 }
 
 input[type=text], input[type=tel], input[type=email] {
-    width: 50%;
+    width: 70%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: block;
+}
+
+#msg-field {
+    width: 70%;
+    height: 10em;
+    display: block;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
+}
+
+#submit-button {
+    height: 2em;
+    width: 10em;
+    background-color: #33FF88;
+    border-radius: 3px;
+    border-width: 0;
+}
+
+#reset-button {
+    height: 2em;
+    width: 10em;
+    background-color: #FF4433;
+    border-radius: 3px;
+    border-width: 0;
+}
+
+#search-guides{
+    margin-bottom: 20px;
+}
+
+.img-trophy-guide {
+    display: block;
+    object-fit: cover;
+    width: 220px;
+    height: 120px;
+}
+
+table, th, td {
+    font-family: sans-serif;
+    border: solid 1px mediumslateblue;
+    border-collapse: collapse;
+    padding: 5px 20px;
+    background-color: #DDDDEE;
+}
+
+th {
+    background-color: #5555CC;
+    color: aliceblue;
+}
+
+.game-name {
+    width: 50em;
+}
+
+.game-name a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.game-name a:hover {
+    color: cornflowerblue;
+}
+
+.search-guide {
+    margin-right: 2em;
+}
+
+.game-review {
+    overflow: auto;
+    height: 50em;
+    background-color: #DDDDEE;
+}
+
+.analisy-img {
+    display: block;
+    object-fit: cover;
+    width: 500px;
+}
+
+.game-review-grid {
+    position: relative;
+    text-align: left;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #AAAA;
 }

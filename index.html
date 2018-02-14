@@ -1,23 +1,49 @@
+<!-- Paula Akemi Hara -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-        <div class="container">
-            <title>Last Save Point</title>
-            <meta charset="utf-8">
+        <title>Last Save Point</title>
+        <meta charset="utf-8">
 
-            <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-        </div>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	</head>
     
     <body>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#trophy">Trophy Guides</a>
-            <a href="#about">About</a>
+            <a class="current-page" href="index.html">Home</a>
+            <a href="pages/news.html">News</a>
+            <a href="pages/trophy_guide.html">Trophy Guides</a>
+            <a href="pages/about.html">About</a>
             <a href="pages/contact.html">Contact</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input class="search-input" type="text" placeholder="Search.." name="search">
+                </form>
+            </div>
         </nav>
         
+        <h2 class="page-title">Last Save Point</h2>
+        
+        <div class="content-body">
+            <div class="game-review-grid">
+                <a href="#review">
+                    <p class="bottom-left">Review of Battlefield 1</p>
+                    <img class="analisy-img" src="assets/img/battlefield1.jpg">
+                </a>
+            </div>
+            
+            <div class="game-review-grid">
+                <a href="#review">
+                    <p class="bottom-left">Review of Battlefield 1</p>
+                    <img class="analisy-img" src="assets/img/battlefield1.jpg">
+                </a>
+            </div>
+        </div>
+        
     </body>
+    
+    <footer>
+        <p> Created by Paula and Robson </p>
+    </footer>
     
 </html>
