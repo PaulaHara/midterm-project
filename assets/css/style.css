@@ -51,14 +51,15 @@ body {
 }
 
 .page-title {
-    margin-top: 3em;
+    margin-top: 3.2em;
+    margin-left: 1em;
 }
 
 .content-body {
     margin-left: 2em;
-    margin-bottom: 5em;
     overflow: auto;
-    height: 29.3em;
+    width: 95vw;
+    height: 70vh;
 }
 
 footer {
@@ -128,7 +129,7 @@ th {
 }
 
 .game-name {
-    width: 50em;
+    width: 100vw;
 }
 
 .game-name a {
@@ -159,6 +160,7 @@ th {
 .game-review-grid {
     position: relative;
     text-align: left;
+    margin-right: 20px;
 }
 
 .bottom-left {
@@ -168,4 +170,8 @@ th {
     font-size: 20px;
     color: aliceblue;
     background-color: #AAAA;
+}
+
+.home-img {
+    display: flex;
 }
