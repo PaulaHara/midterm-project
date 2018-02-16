@@ -193,7 +193,6 @@ table, th, td {
     border: solid 1px #050C3E;
     border-collapse: collapse;
     padding: 5px 20px;
-    background-color: #DDDDEE;
 }
 
 th {
@@ -201,17 +200,25 @@ th {
     color: aliceblue;
 }
 
+tr:nth-child(even) {
+    background-color: #DDDDEE;
+}
+
+tr:nth-child(odd) {
+    background-color: #A8A4FF;
+}
+
 .game-name {
     width: 100vw;
 }
 
 .game-name a {
-    color: darkblue;
+    color: #080F2D;
     text-decoration: none;
 }
 
 .game-name a:hover {
-    color: cornflowerblue;
+    color: #2424FF;
 }
 
 .search-guide {
