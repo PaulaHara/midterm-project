@@ -9,17 +9,17 @@ nav {
     width: 100%;
 }
 
-nav a {
-    float: left;
+.nav_links {
+    float: right;
     display: block;
-    color: #f2f2f2;
+    color: #F2F2F2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
-nav a:hover {
+.nav_links:hover {
     background-color: aliceblue;
     color: black;
 }
@@ -34,7 +34,69 @@ nav .search-input {
     width: auto !important;
     padding: 0 !important;
     margin-top: 3px !important;
-    margin-right: 7px !important;
+    margin-right: 10px !important;
+    margin-left: 25px !important;
+}
+
+.home-img-nav {
+    position: fixed;
+    width: 4.5em;
+    margin-top: 2px;
+    float: left;
+    margin-left: 5em;
+}
+
+.login-bar {
+    position: fixed;
+    background-color: #2E2E96;
+    top: 50px;
+    width: 100%;
+    height: 2em;
+    left: 0;
+    z-index: -1;
+}
+
+.login-bar input {
+    position: absolute;
+    top: 3px;
+    background-color: #333;
+    color: white;
+    border-style: groove;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.login-bar input[type=text] {
+    width: 15em;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
+    right: 29em;
+}
+
+.login-bar input[type=password] {
+    width: 15em;
+    height: 1.5em;
+    margin: 0;
+    padding: 0;
+    right: 13em;
+}
+
+.login-bar button {
+    position: absolute;
+    right: 9em;
+    top: 1px;
+}
+
+.save-login {
+    right: 7em;
+}
+
+.login-bar sub {
+    position: absolute;
+    right: 0.5em;
+    top: 0.8em;
+    color: aliceblue;
 }
 
 .current-page {
@@ -52,7 +114,7 @@ body {
 }
 
 .page-title {
-    margin-top: 3.2em;
+    margin-top: 3.5em;
     margin-left: 1em;
     margin-bottom: 10px;
     color: #050c3e;
@@ -78,6 +140,10 @@ footer {
 /* ------ In common with almost all pages: End ------ */
 
 /* ------ Contact: Start ------ */
+.contact-form {
+    color: #050C3E;
+}
+
 input[type=text], input[type=tel], input[type=email] {
     width: 70%;
     padding: 12px 15px;
@@ -124,14 +190,14 @@ input[type=text], input[type=tel], input[type=email] {
 
 table, th, td {
     font-family: sans-serif;
-    border: solid 1px mediumslateblue;
+    border: solid 1px #050C3E;
     border-collapse: collapse;
     padding: 5px 20px;
     background-color: #DDDDEE;
 }
 
 th {
-    background-color: #5555CC;
+    background-color: #050C3E;
     color: aliceblue;
 }
 
@@ -228,10 +294,24 @@ th {
 }
 
 .home-new a:hover {
-    color: cornflowerblue;
+    color: #7070C3;
 }
 
 .home-news-background {
-    background-color: #AAAA;
+    background-color: #DDDD;
+}
+
+.home-news-background button {
+    width: 100%;
+    height: 2em;
+    border-radius: 0;
+    border-style: none;
+    color: aliceblue;
+    background-color: #333333;
+}
+
+.home-news-background button:hover {
+    color: darkblue;
+    background-color: #DDDDDD;
 }
 /* ------ Home: End ------ */

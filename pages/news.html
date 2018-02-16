@@ -8,18 +8,34 @@
 	</head>
     
     <body>
+        <!-- Top navbar -->
         <nav>
-            <a href="../index.html">Home</a>
-            <a class="current-page" href="news.html">News</a>
-            <a href="trophy_guide.html">Trophy Guides</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="../index.html">
+                <img class="home-img-nav" src="../assets/img/game_icon.png" alt="Last Save Point Icon">
+            </a>
+            
             <div class="search-container">
                 <form action="/action_page.php">
                     <input class="search-input" type="text" placeholder="Search.." name="search">
                 </form>
             </div>
+            
+            <a class="nav_links" href="contact.html">Contact</a>
+            <a class="nav_links" href="about.html">About</a>
+            <a class="nav_links" href="trophy_guide.html">Trophy Guides</a>
+            <a class="current-page nav_links" href="news.html">News</a>
         </nav>
+        
+        <!-- Login -->
+        <div class="login-bar">
+            <form>
+                <input type="text" class="username" id="username" placeholder="Username">
+                <input type="password" class="password" id="password" placeholder="Password">
+                
+                <button type="submit">Ok</button>
+                <input type="checkbox" class="save-login" name="save-login" value="save-login"><sub>Remember me</sub>
+            </form>
+        </div>
         
         <h2 class="page-title">News</h2>
         

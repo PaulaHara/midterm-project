@@ -11,17 +11,32 @@
     <body>
         <!-- Top navbar -->
         <nav>
-            <a class="current-page" href="index.html">Home</a>
-            <a href="pages/news.html">News</a>
-            <a href="pages/trophy_guide.html">Trophy Guides</a>
-            <a href="pages/about.html">About</a>
-            <a href="pages/contact.html">Contact</a>
+            <a href="index.html">
+                <img class="home-img-nav" src="assets/img/game_icon.png" alt="Last Save Point Icon">
+            </a>
+            
             <div class="search-container">
                 <form action="/action_page.php">
                     <input class="search-input" type="text" placeholder="Search.." name="search">
                 </form>
             </div>
+            
+            <a class="nav_links" href="pages/contact.html">Contact</a>
+            <a class="nav_links" href="pages/about.html">About</a>
+            <a class="nav_links" href="pages/trophy_guide.html">Trophy Guides</a>
+            <a class="nav_links" href="pages/news.html">News</a>
         </nav>
+        
+        <!-- Login -->
+        <div class="login-bar">
+            <form>
+                <input type="text" class="username" id="username" placeholder="Username">
+                <input type="password" class="password" id="password" placeholder="Password">
+                
+                <button type="submit">Ok</button>
+                <input type="checkbox" class="save-login" name="save-login" value="save-login"><sub>Remember me</sub>
+            </form>
+        </div>
         
         <!-- Title of the page -->
         <h2 class="page-title">Last Save Point</h2>
@@ -170,6 +185,10 @@
                             God of War IV: The new game of God of War anounced the release date today...
                         </a>
                     </p>
+                    
+                    <a href="pages/news.html">
+                        <button type="button">View all news</button>
+                    </a>
                 </div>
             </div>
         </div>    
