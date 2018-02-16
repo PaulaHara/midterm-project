@@ -322,3 +322,22 @@ tr:nth-child(odd) {
     background-color: #DDDDDD;
 }
 /* ------ Home: End ------ */
+
+/* ------ News: Start -------*/
+.news-list-style {
+    list-style-type: none;
+}
+
+span.position{
+    position: relative;
+    right: -0.5em;
+    top: -3em;
+    display: inline-block;
+    width: 60vw;
+}
+
+.news-imgs {
+    object-fit: cover;
+    width: 30vw;
+}
+/* ------ News: End -------*/
