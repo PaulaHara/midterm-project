@@ -1,7 +1,6 @@
 /* ------ In common with almost all pages: Start ------ */
 nav {
     background-color: midnightblue;
-    overflow: hidden;
     position: fixed;
     top: 0;
     right: 0;
@@ -31,11 +30,13 @@ nav .search-container {
 }
 
 nav .search-input {
-    width: auto !important;
+    width: 15em !important;
     padding: 0 !important;
     margin-top: 3px !important;
     margin-right: 10px !important;
     margin-left: 25px !important;
+    height: 1.7em;
+    border-radius: 5px;
 }
 
 .home-img-nav {
@@ -100,11 +101,11 @@ nav .search-input {
 }
 
 .current-page {
-    background-color: slateblue;
+    background-color: #1f39bf;
 }
 
 .current-page:hover {
-    background-color: slateblue;
+    background-color: #1f39bf;
     color: #f2f2f2;
 }
 
@@ -190,7 +191,7 @@ input[type=text], input[type=tel], input[type=email] {
 
 table, th, td {
     font-family: sans-serif;
-    border: solid 1px #050C3E;
+    font-size: 18px;
     border-collapse: collapse;
     padding: 5px 20px;
 }
@@ -230,8 +231,7 @@ tr:nth-child(odd) {
 .home-link-img {
     display: block;
     object-fit: cover;
-    width: 450px;4
-    overflow: auto;
+    width: 35vw;
 }
 
 .home-all-img {
