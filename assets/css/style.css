@@ -263,7 +263,7 @@ tr:nth-child(odd) {
     left: 10px;
     bottom: 10px;
     font-size: 20px;
-    background-color: #CCCC;
+    background-color: rgba(204, 204, 204, 0.6);
 }
 
 .img-text-tittle {
@@ -271,7 +271,7 @@ tr:nth-child(odd) {
     left: 10px;
     bottom: 0;
     font-size: 20px;
-    background-color: #CCCC;
+    background-color: rgba(204, 204, 204, 0.6);
 }
 
 .home-img-and-news {
@@ -305,7 +305,7 @@ tr:nth-child(odd) {
 }
 
 .home-news-background {
-    background-color: #DDDD;
+    background-color: rgba(221, 221, 221, 0.6);
 }
 
 .home-news-background button {
